@@ -1,0 +1,16 @@
+{
+  "name": "tellmeyourname",
+  "version": "1.0.0",
+  "description": "fill out form with your name and see your name with a cute critter pic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/Cyclokitty/tellmeyourname",
+  "author": "Laura Veee <droolaquarium@gmail.com> (https://cyclokitty.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "unique-random-array": "^1.0.0"
+  }
+}
