@@ -10,6 +10,7 @@
   "author": "Laura Veee <droolaquarium@gmail.com> (https://cyclokitty.github.io/)",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "consolidate": "^0.14.5",
     "express": "^4.15.2",
     "nunjucks": "^3.0.0",
