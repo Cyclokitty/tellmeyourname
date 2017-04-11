@@ -17,7 +17,11 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
   const name = req.body.name;
-  res.render('results.html', {name: `${name}`});
+  if (name === '') {
+    res.render('help.html', {});
+  } else {
+    res.render('results.html', {name: `${name}`});
+  }
 })
 
 app.listen(port, () => {
