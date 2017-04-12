@@ -22,7 +22,7 @@ app.post('/', (req, res) => {
   } else {
     res.render('results.html', {name: `${name}`});
   }
-})
+});
 
 app.listen(port, () => {
   console.log(`App open and listening on port ${port}.`);
