@@ -37,7 +37,8 @@ html, body {
 }
 
 .ani-name h1{
-  font-size: 5em;
+  position: relative;
+  font-size: 4em;
   text-align: center;
   color: red;
   animation-name: ani-name;

@@ -35,7 +35,7 @@ MongoClient.connect(process.env.MONGO, (err, db) => {
       res.render('results.html', {name: `${name}`});
     }
   });
-})
+});
 
 app.listen(port, () => {
   console.log(`App open and listening on port ${port}.`);
