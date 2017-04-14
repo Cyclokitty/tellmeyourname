@@ -23,7 +23,7 @@ MongoClient.connect(process.env.MONGO, (err, db) => {
 
   app.post('/', (req, res) => {
     const name = req.body.name;
-    if (name === '') {
+    if (!name.trim()) {
       res.render('help.html', {});
     } else {
       db.collection('words').insertOne({
