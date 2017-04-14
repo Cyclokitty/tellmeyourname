@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
 
+@media (max-width:480px){}
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
 html, body {
   font-family: 'Luckiest Guy', cursive;
   width: 100vw;
