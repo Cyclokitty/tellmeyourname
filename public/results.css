@@ -11,7 +11,7 @@ html, body {
 
 .results {
   background-color: #7EC0EE;
-  height: 60%;
+  height: 60vh;
 }
 
 @keyframes unicorn {
@@ -39,7 +39,7 @@ html, body {
 
 .ani-name h1{
   position: relative;
-  font-size: 4em;
+  font-size: 6em;
   text-align: center;
   color: red;
   animation-name: ani-name;
@@ -48,13 +48,13 @@ html, body {
 }
 
 .art {
-  height: 33%;
+  height: 33vh;
   width: 100vw;
   background-color: #33a43e;
 }
 
 .author {
-  height: 7%;
+  height: 7vh;
   width: 100vw;
   background-color: #33a43e;
   color: #f5f5dc;
